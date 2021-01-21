@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4bf96da.chunk.css",
+    "main.js": "/static/js/main.b83ae61d.chunk.js",
+    "main.js.map": "/static/js/main.b83ae61d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.20818536.js",
+    "runtime-main.js.map": "/static/js/runtime-main.20818536.js.map",
+    "static/css/2.540e94a2.chunk.css": "/static/css/2.540e94a2.chunk.css",
+    "static/js/2.1128050a.chunk.js": "/static/js/2.1128050a.chunk.js",
+    "static/js/2.1128050a.chunk.js.map": "/static/js/2.1128050a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c56b9f6f03b2795b1f0f29966cb7d691.js": "/precache-manifest.c56b9f6f03b2795b1f0f29966cb7d691.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.540e94a2.chunk.css.map": "/static/css/2.540e94a2.chunk.css.map",
+    "static/css/main.f4bf96da.chunk.css.map": "/static/css/main.f4bf96da.chunk.css.map",
+    "static/js/2.1128050a.chunk.js.LICENSE.txt": "/static/js/2.1128050a.chunk.js.LICENSE.txt",
+    "static/media/footer.scss": "/static/media/Nunito-SemiBold.876701bc.ttf",
+    "static/media/banner-gif.gif": "/static/media/banner-gif.b3c92793.gif",
+    "static/media/category-image-1.png": "/static/media/category-image-1.b9b58ab1.png",
+    "static/media/category-image-2.png": "/static/media/category-image-2.2c5baed9.png",
+    "static/media/category-image-3.png": "/static/media/category-image-3.1b03b84a.png",
+    "static/media/category-image-4.png": "/static/media/category-image-4.e20c37bd.png",
+    "static/media/icon-bars.svg": "/static/media/icon-bars.4aaf92d0.svg",
+    "static/media/icon-caret-down.svg": "/static/media/icon-caret-down.ca82bc74.svg",
+    "static/media/image-slider-1.png": "/static/media/image-slider-1.35e219c8.png",
+    "static/media/image-slider-2.png": "/static/media/image-slider-2.b6f29f8e.png",
+    "static/media/image-slider-3.png": "/static/media/image-slider-3.01df3c34.png",
+    "static/media/image-slider-4.png": "/static/media/image-slider-4.4e70dfda.png",
+    "static/media/image-slider-5.png": "/static/media/image-slider-5.c2947ef4.png",
+    "static/media/product-36.jpg": "/static/media/product-36.0476a2a0.jpg",
+    "static/media/product-4.jpg": "/static/media/product-4.79307297.jpg",
+    "static/media/product-detail-1.jpg": "/static/media/product-detail-1.8f3a9227.jpg",
+    "static/media/size-tutorial.png": "/static/media/size-tutorial.4ccbcbff.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20818536.js",
+    "static/css/2.540e94a2.chunk.css",
+    "static/js/2.1128050a.chunk.js",
+    "static/css/main.f4bf96da.chunk.css",
+    "static/js/main.b83ae61d.chunk.js"
+  ]
+}
