@@ -1,0 +1,75 @@
+@import "~assets/styles/colors";
+@font-face {
+  font-family: nunito;
+  src: url(../../assets/fonts/Nunito-SemiBold.ttf);
+}
+@font-face {
+  font-family: Barlow;
+  src: url(../../assets/fonts/Barlow-Light.ttf);
+}
+.category-section {
+  padding-top: 35px;
+  position: relative;
+  .title-category {
+    text-align: center;
+    font-family: nunito, sans-serif;
+    font-size: 28px;
+    color: $primary;
+    text-transform: uppercase;
+    margin: 0px auto;
+    margin-bottom: 35px;
+  }
+  .alice-carousel__next-btn-item {
+    position: absolute;
+    top: 25%;
+    right: -2%;
+
+  }
+  .alice-carousel__next-btn-item span::after {
+    content: "";
+    background-size: cover;
+    background-position: 50%;
+    background-image: url(../../assets/icons/icon-angle-right.png);
+    position: relative;
+    font-size: 18px;
+    padding: 11px;
+  }
+  .alice-carousel__prev-btn-item {
+    position: absolute;
+    top: 25%;
+    left: -2%;
+  
+  }
+  .alice-carousel__prev-btn-item span::after {
+    content: "";
+    background-size: cover;
+    background-position: 50%;
+    background-image: url(../../assets/icons/icon-angle-left.png);
+    position: relative;
+    font-size: 18px;
+    padding: 11px;
+  }
+
+  .view-all {
+    font-family: nunito, sans-serif;
+    font-size: 16px;
+    color: grey;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+  }
+  .view-all:hover {
+    color: $primary;
+  }
+  .icon-arrow {
+    width: 7px;
+    height: auto;
+  }
+  .product-slider {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .alice-carousel__prev-btn, .alice-carousel__next-btn {
+    padding: 0px !important;
+  }
+}

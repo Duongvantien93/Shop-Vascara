@@ -1,0 +1,83 @@
+@import "~assets/styles/colors";
+@font-face {
+  font-family: nunito;
+  src: url(../../assets/fonts/Nunito-SemiBold.ttf);
+}
+@font-face {
+  font-family: Barlow;
+  src: url(../../assets/fonts/Barlow-Light.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: $gray-light;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  .content-footer {
+    a {
+      margin-bottom: 15px;
+      display: block;
+      font-family: Barlow;
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 400;
+    }
+    .title {
+      font-family: Barlow;
+      text-transform: uppercase;
+      color: #000;
+      font-size: 14px;
+      margin-bottom: 25px;
+      color: #000;
+      font-weight: 500;
+    }
+    .title-connect {
+      margin-bottom: 0px;
+    }
+    .connect-vascara{
+      padding-top: 10px;
+      padding-bottom: 25px;
+      div {
+        margin-right: 10px;
+        margin-bottom: 15px;
+      }
+      div:last-child{
+        margin-right: 0px;
+      }
+    }
+    
+  }
+  .phone {
+    padding: 20px 0px;
+    padding-left: 20px;
+    .icon-phone{
+      width: 20px;
+      height: 22px;
+      margin-right: 10px;
+    }
+    a {
+      color: $primary;
+      span {
+        color: $black;
+        font-family: Barlow;
+        font-weight: 400;
+      }
+    }
+  }
+  .address {
+
+    a {
+      color: $primary;
+    }
+  }
+}
+.footer-bottom{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-family: nunito,sans-serif;
+  font-weight: 400;
+}

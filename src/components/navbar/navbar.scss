@@ -1,0 +1,140 @@
+@import "~assets/styles/colors";
+.NavbarItems {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: nunito, sans-serif;
+  padding-top: 20px;
+
+  .nav-logo {
+    display: none;
+  }
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(11, auto);
+    grid-gap: 47px;
+    list-style: none;
+    text-align: center;
+    .nav-links {
+      font-size: 14px;
+      text-transform: uppercase;
+      border-bottom: 2px solid #ffffff;
+      padding-bottom: 3px;
+      &:hover {
+        color: $primary;
+        border-bottom: 2px solid $primary;
+      }
+    }
+  }
+  .search-input {
+    display: none !important;
+    flex: 1 1;
+    max-width: 45rem;
+    padding: 8px 3rem 8px 2rem;
+    border-radius: 30px;
+    margin: 0 15px;
+    background: #f4f4f4;
+    .icon-search {
+      width: 15px;
+      margin-right: 10px;
+    }
+  }
+  .link-login {
+    display: none !important;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .location {
+    padding: 5px;
+    background-color: #f4f4f4;
+    p {
+      font-size: 10px;
+      font-family: nunito;
+    }
+    .section {
+      border: none;
+      font-size: 12px;
+      font-family: nunito;
+      background-color: $gray-light;
+    }
+  }
+  
+}
+@media screen and (max-width: 991px) {
+  .NavbarItems {
+    position: relative;
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+      grid-gap: 0;
+
+      &.active {
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        background-color: $gray-light;
+      }
+      .nav-links {
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        display: table;
+        border-bottom: 0px !important;
+        &:hover {
+          background-color: $gray !important;
+          color:white;
+        }
+      }
+      .link-login {
+        display:block;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        a {
+          text-decoration: none;
+          color: blue;
+          font-family: Barlow,sans-serif;
+          text-transform: uppercase;
+         
+        }
+      }
+      .search-input {
+        display: block;
+        background-color: #fff;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        ;
+      }
+    
+    }
+    .nav-logo {
+      display:block;
+      width: 150px;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(25%,50%);
+    }
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%,60%);
+      cursor: pointer;
+      color: black;
+  }
+  
+}
+}

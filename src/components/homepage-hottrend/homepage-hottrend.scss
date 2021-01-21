@@ -1,0 +1,25 @@
+@font-face {
+    font-family: nunito;
+    src: url(../../assets/fonts/Nunito-SemiBold.ttf);
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+.content {
+    padding-top: 35px;
+    p{
+    font-size: 28px;
+    font-family: nunito;
+    text-transform: uppercase;
+    color: #f15b67;
+    text-align: center;
+    padding-bottom: 35px;
+    line-height: 33px;
+}
+    img {
+        max-width: 100%;
+    }
+
+}

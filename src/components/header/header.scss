@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: nunito;
+  src: url(../../assets/fonts/Nunito-SemiBold.ttf);
+}
+@font-face {
+  font-family: Barlow;
+  src: url(../../assets/fonts/Barlow-Light.ttf);
+}
+.header {
+  padding: 20px 15px 15px 15px;
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+  .header-search {
+    flex: 1 1;
+    max-width: 45rem;
+    padding: 8px 3rem 8px 2rem;
+    border-radius: 30px;
+    margin: 0 15px;
+    background: #f4f4f4;
+    .icon-search {
+      width: 15px;
+      margin-right: 10px;
+    }
+  }
+  .header-authen {
+    a {
+      font-size: 14px;
+      font-family: Barlow, sans-serif;
+      text-transform: uppercase;
+    }
+  }
+  .location {
+    padding: 5px;
+    background-color: #f4f4f4;
+    p {
+      font-size: 10px;
+      font-family: nunito;
+    }
+    .section {
+      border: none;
+      font-size: 12px;
+      font-family: nunito;
+    }
+  }
+  .header-cart {
+    p {
+      font-family: nunito, sans-serif;
+      font-size: 18px;
+      color: red;
+    }
+    .icon-cart {
+      height: 33px;
+      margin-right: 5px;
+    }
+  }
+  .menu {
+    margin-top: 21px;
+    background-color: white;
+    ul {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-family: Barlow, sans-serif;
+      li {
+        border-bottom: 2px solid #ffffff;
+        margin-right: 35px;
+      }
+      li:last-child {
+        margin-right: 0px;
+      }
+      li:hover {
+        border-bottom: 2px solid #f15b67;
+        color: black;
+      }
+    }
+    &.active {
+      position: fixed;
+      padding: 15px;
+      top: 0;
+      margin: 0px auto;
+      box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.1);
+      background-color: white;
+      animation: slideDown 0.5s linear forwards;
+      z-index: 100;
+      ul {
+        li {
+          // margin-right: 45px;
+        }
+        li:last-child {
+          margin-right: 0px;
+        }
+      }
+      @keyframes slideDown {
+        0% {
+          top: -15%;
+        }
+        100% {
+          top: 0;
+        }
+      }
+    }
+    
+  }
+  .responsive {
+    display: none !important;
+    margin-top: 25px;
+    padding-left: 43px;
+    padding-right: 0px;
+    .section-responsive {
+      span {
+        text-transform: capitalize;
+
+      }
+    }
+    .cart-responsive {
+      img {
+        height: 20px ;
+        margin-right: 5px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+ 
+}
+@media (max-width: 991px) {
+  .header-top {
+    display: none !important;
+  }
+  .responsive {
+    display: block !important;
+  }
+}
