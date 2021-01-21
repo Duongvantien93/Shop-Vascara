@@ -61,6 +61,9 @@ export const CategorySection = (props) => {
             ))}
         </div>
       )}
+       <Link className="view-all-end" to={props.link}>
+        Xem tất cả <AngleRightIcon className="icon-arrow"/>
+      </Link>
     </div>
   );
 };

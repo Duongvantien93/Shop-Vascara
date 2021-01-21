@@ -22,7 +22,7 @@
   .alice-carousel__next-btn-item {
     position: absolute;
     top: 25%;
-    right: -2%;
+    right: 1%;
 
   }
   .alice-carousel__next-btn-item span::after {
@@ -37,7 +37,7 @@
   .alice-carousel__prev-btn-item {
     position: absolute;
     top: 25%;
-    left: -2%;
+    left: 1%;
   
   }
   .alice-carousel__prev-btn-item span::after {
@@ -57,6 +57,21 @@
     position: absolute;
     right: 10px;
     top: 40px;
+    @media screen and (max-width: 991px) {
+     display: none;
+      }
+  }
+  .view-all-end {
+    display: none;
+    font-family: nunito, sans-serif;
+    font-size: 16px;
+    color: grey;
+    position: absolute;
+    right: 45%;
+    bottom: 5px;
+    @media screen and (max-width: 991px) {
+      display: block;
+       }
   }
   .view-all:hover {
     color: $primary;
@@ -72,4 +87,6 @@
   .alice-carousel__prev-btn, .alice-carousel__next-btn {
     padding: 0px !important;
   }
+
 }
+

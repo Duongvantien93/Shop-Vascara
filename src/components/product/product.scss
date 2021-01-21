@@ -15,13 +15,13 @@
   margin-bottom: 4rem;
 
   @media (max-width: 575px) {
-    &:nth-of-type(odd) {
-      padding-right: 7.5px;
-    }
+    // &:nth-of-type(odd) {
+    //   padding-right: 7.5px;
+    // }
 
-    &:nth-of-type(even) {
-      padding-left: 7.5px;
-    }
+    // &:nth-of-type(even) {
+    //   padding-left: 7.5px;
+    // }
   }
 
   &:hover .product-image:before {
