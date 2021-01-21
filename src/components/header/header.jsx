@@ -97,7 +97,7 @@ export const Header = () => {
         </ul>
       </div> */}
       <Navbar></Navbar>
-      <div className="container d-flex justify-content-between align-items-center responsive ">
+      <div className="container responsive ">
         <div className="section-responsive">
           <span>chọn kho giao hàng : </span>
           <select name="" id="" className="section">

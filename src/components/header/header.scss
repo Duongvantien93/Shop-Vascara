@@ -103,22 +103,20 @@
         }
       }
     }
-    
   }
   .responsive {
-    display: none !important;
+    display: none;
     margin-top: 25px;
     padding-left: 43px;
     padding-right: 0px;
     .section-responsive {
       span {
         text-transform: capitalize;
-
       }
     }
     .cart-responsive {
       img {
-        height: 20px ;
+        height: 20px;
         margin-right: 5px;
       }
       p {
@@ -126,13 +124,19 @@
       }
     }
   }
- 
 }
 @media (max-width: 991px) {
-  .header-top {
-    display: none !important;
-  }
-  .responsive {
-    display: block !important;
+  .header {
+    padding-bottom: 0px;
+
+    .header-top {
+      display: none !important;
+    }
+    .responsive {
+      display: flex !important;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+    }
   }
 }
