@@ -1,9 +1,6 @@
 @import '~assets/styles/colors';
 
 .homepage-carousel {
-  @media (max-width: 991px) {
-    margin-top: 20px;
-  }
   position: relative;
   .alice-carousel__dots {
     position: absolute;
